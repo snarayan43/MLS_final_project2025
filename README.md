@@ -39,7 +39,7 @@ Both models utilize **Transfer Learning** via `EfficientNetB1` (ImageNet weights
 ## 🚀 Usage
 
 ### 0. Create Environment
-Create an environment and install requirements as needed.
+Create an environment with Python=3.10 and install requirements as needed.
 ```bash
 pip install -r requirements.txt
 ```
