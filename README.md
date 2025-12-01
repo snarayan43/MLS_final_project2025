@@ -12,6 +12,7 @@ By comparing **Control models** (Global Pooling) against **Attention models** ac
 | **`models.py`** | **The Architectures.** Contains the TensorFlow/Keras model definitions. Includes the shared backbone (TimeDistributed EfficientNetB1 + BiLSTM) and the two aggregation heads: **Control** (Global Average Pooling) and **Attention** (Temporal Soft Attention). |
 | **`run.py`** | **The Orchestrator.** Manages the training pipeline. It handles GPU memory safety, initializes the `VideoDataGenerator` (which loads `.npy` files), performs training with early stopping, and generates the final Confusion Matrix evaluation. |
 | **`haarcascade...`** | The OpenCV XML file required for face detection logic in `preprocess.py`. |
+| **`inspect_img.py...`** | Use to inspect preprocessed images. |
 
 ## 🧪 Experiment Design
 
